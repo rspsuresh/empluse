@@ -40,33 +40,33 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <label><b>First Name</b></label>
-                        <input type="text" class="form-control" name="firstname" id="fname" placeholder="Firstname">
+                        <input type="text" required class="form-control" name="firstname" id="fname" placeholder="Firstname">
                         <span class="error-msg" id="fname_1"></span>
                     </div>
                     <div class="form-group">
                         <label><b>Last Name</b></label>
-                        <input type="text" class="form-control" name="lastname" id="lname" placeholder="Lastname">
+                        <input type="text" required class="form-control" name="lastname" id="lname" placeholder="Lastname">
                         <span class="error-msg" id="lname_1"></span>
                     </div>
                     <div class="form-group">
                         <label><b>Email</b></label>
-                        <input type="text" class="form-control" name="email" id="email" placeholder="YourEmail@email.com">
+                        <input type="text" required class="form-control" name="email" id="email" placeholder="YourEmail@email.com">
                         <span class="error-msg" id="email_1"></span>
                     </div>
                     <div class="form-group">
                         <label><b>DOB</b></label>
-                        <input type="date" class="form-control" id="dob" name="dob">
+                        <input type="date" required class="form-control" id="dob" name="dob">
                         <span class="error-msg" id="dob_1"></span>
                     </div>
                     <div class="form-group">
                         <label><b>Address</b></label>
-                        <input type="text" class="form-control" name="address" id="address"
+                        <input type="text" required class="form-control" name="address" id="address"
                                placeholder="Address">
                         <span class="error-msg" id="address_1"></span>
                     </div>
                     <div class="form-group">
                         <label><b>Phone Number</b></label>
-                        <input type="text" class="form-control" name="phonenumber" id="phonenumber"
+                        <input type="text" required class="form-control" name="phonenumber" id="phonenumber"
                                placeholder="Phone number">
                         <span class="error-msg" id="phonenumber_1"></span>
                     </div>
